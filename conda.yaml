@@ -1,4 +1,4 @@
-name: base
+name: study_case
 channels:
   - conda-forge
   - defaults
