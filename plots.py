@@ -41,7 +41,7 @@ def plot_channelid_distribution(data, save=True):
             ax.annotate(f'{percentage:.1f}%', (p.get_x() + p.get_width() / 2., height),
                         ha='center', va='bottom', rotation=90)
 
-    custom_labels = ['accepted', 'rejected']
+    custom_labels = ['rejected','accepted']
     plt.legend(labels=custom_labels, fontsize=9)
     plt.ylim(0, 30000)
     if save:
